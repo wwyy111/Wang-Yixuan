@@ -10,6 +10,7 @@ import Components from "unplugin-vue-components/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/llm-dev/', // 重要：适配GitHub Pages子目录
   plugins: [
     vue(),
     vueJsx(),
