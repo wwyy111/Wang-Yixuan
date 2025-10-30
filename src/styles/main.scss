@@ -1,0 +1,14 @@
+@use '_base' as *;
+
+:root {
+    --el-color-primary: #605CE5 !important;
+    font-family: "PingFang SC" !important;
+  }
+  .is-drawer {
+    background: linear-gradient(
+      0deg,
+      #f5f8fc 51.97%,
+      #fcfbff 83.65%,
+      #d9d8ff 100%
+    );
+  }
