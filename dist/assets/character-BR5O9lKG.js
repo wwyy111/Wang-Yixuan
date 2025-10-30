@@ -1,0 +1,1 @@
+import{H as s,r as c}from"./index-BN1cP4MY.js";const n=s("character",()=>{const t=c([]);function r(e){console.log("数据：",e),t.value.push({...e,active:!1})}return{data:t,setData:r,setActive:e=>{t.value.forEach(a=>{a.id===e.id&&(a.active=e.active)})}}},{persist:!0});export{n as u};
